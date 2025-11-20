@@ -3,9 +3,7 @@ OSRM Distance and Route Calculation
 
 Use this to run
 
-<code>
-python distance.py --input coordinates.xlsx --output-prefix results --max-nodes 40 --concurrency 4 --clear-cache
-</code>
+<code>python distance.py --input coordinates.xlsx --output-prefix results --max-nodes 40 --concurrency 4 --clear-cache</code>
 
 If you're getting high failures, reduce --max-nodes in multiples of 20 and --concurrency in multiples of 2.
 
